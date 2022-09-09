@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.contenedor{
+    max-width: 35rem;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+h3{
+    font-size: 2.3rem;
+}
+
+.imagen img{
+    border-radius: 3rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.descri-1{
+    padding: 0 3rem;
+    width: 100%;
+}
+
+.descri-1 p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+
+}
+
+.descri-1 h2{
+    color: hsl(0, 0%, 100%);
+}
+
+.padre{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.descri-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.margen {
+    margin: 0 3rem;
+}
+
+.numero1{
+    display: flex;
+    align-items: center;
+}
+
+.numero2{
+    display: flex;
+    align-items: center;
+}
+
+.numero1 p{
+    color: hsl(178, 100%, 50%);
+    padding-left: .8rem;
+}
+
+.numero2 p{
+    color: hsl(215, 51%, 70%);
+    padding-left: .8rem;
+}
+
+.descri-3 {
+    border-top: .1rem solid hsl(215, 32%, 27%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.descri-3 p{
+    margin-left: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.descri-3 img{
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.color-jules {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 11px; text-align: center; color: rgba(255, 255, 255, 0.593);}
+.attribution a { color: hsl(228, 45%, 44%); }
+
